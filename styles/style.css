@@ -181,3 +181,37 @@ main section{
 .resume-download-cv{
     margin-top: 50px;
 }
+
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+
+.footer-col{
+    width: 50%;
+}
+
+footer input[type="text"], input[type="email"]{
+    height: 64px;
+    width: 100%;
+
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 24px;
+    display: block;
+
+    padding: 18px 30px;
+}
+
+footer textarea{
+    height: 180px;
+    width: 100%;
+
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 24px;
+    display: block;
+
+    padding: 18px 30px;
+}
