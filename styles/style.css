@@ -225,8 +225,17 @@ footer input[type="text"], input[type="email"], footer textarea{
     .skills-container, 
     .resume-container, 
     footer,
-    .about-items{
+    .about-items,
+    .banner,
+    nav,
+    nav > ul{
         flex-direction: column;
+    }
+    nav > ul{
+        gap: 10px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
     }
     footer, .about{
         padding: 20px;
@@ -237,5 +246,18 @@ footer input[type="text"], input[type="email"], footer textarea{
     footer input[type="text"], input[type="email"], footer textarea{
         width: calc(100% - 40px)
     }
+    .banner{
+        margin: 20px;
+    }
 
+    .banner-content{
+        width: 100%;
+    }
+
+    .banner-pic{
+        width: 100%;
+    }
+    .header{
+        background-image: none;
+    }
 }
