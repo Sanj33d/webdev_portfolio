@@ -192,7 +192,7 @@ footer{
     width: 50%;
 }
 
-footer input[type="text"], input[type="email"]{
+footer input[type="text"], input[type="email"], footer textarea{
     height: 64px;
     width: 100%;
 
@@ -204,8 +204,8 @@ footer input[type="text"], input[type="email"]{
     padding: 18px 30px;
 }
 
-footer textarea{
-    height: 180px;
+/* footer textarea{
+    height: 64px;
     width: 100%;
 
     border-radius: 5px;
@@ -214,4 +214,28 @@ footer textarea{
     display: block;
 
     padding: 18px 30px;
+} */
+
+/* responsive styles */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .skills-container, 
+    .resume-container, 
+    footer,
+    .about-items{
+        flex-direction: column;
+    }
+    footer, .about{
+        padding: 20px;
+    }
+    .footer-col{
+        width: 100%;
+    }
+    footer input[type="text"], input[type="email"], footer textarea{
+        width: calc(100% - 40px)
+    }
+
 }
