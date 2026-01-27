@@ -11,7 +11,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    /* margin: 0 200px; */
+    padding: 50px 100px;
 }
 
 .nav-title{
@@ -55,10 +56,11 @@ nav ul{
 .greetings{
     font-size: 45px;
     font-weight: 600;
+    padding-top: 90px;
 }
 
 .banner-title{
-    font-size: 85px;
+    font-size: 50px;
     font-weight:700;
 }
 
@@ -68,7 +70,7 @@ nav ul{
 
 .banner-description{
     font-size: 18px;
-    font-weight:400
+    font-weight:500
 }
 
 .banner-pic{
@@ -82,13 +84,14 @@ nav ul{
 .banner{
     display:flex;
     justify-content: space-between;
-    margin: 0 35px 0 230px;
+    margin: 35px;
+    
 }
 
 .header{
-    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: bottom right;
 }
 
 /* main styles */
@@ -131,6 +134,15 @@ main{
 .text-center{
     text-align: center;
 }
+
+.skill-description ul {
+  padding-left: 18px;
+}
+
+.skill-description li {
+  margin-bottom: 6px;
+}
+
 
 .skills-container{
     display: flex;
@@ -230,6 +242,7 @@ footer input[type="text"], input[type="email"], footer textarea{
     nav,
     nav > ul{
         flex-direction: column;
+        margin: ;
     }
     nav > ul{
         gap: 10px;
