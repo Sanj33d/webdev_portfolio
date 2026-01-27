@@ -79,7 +79,7 @@ nav ul{
 
 .banner-content{
     width: 585px;
-    /* padding: 50px; */
+    padding: 0px 70px;
 }
 
 .banner{
@@ -194,12 +194,12 @@ main section{
 }
 
 .resume-download-cv{
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 footer{
     display: flex;
-    padding: 130px 230px;
+    padding: 30px 100px;
     gap: 117px;
 }
 
@@ -263,6 +263,7 @@ footer input[type="text"], input[type="email"], footer textarea{
 
     .banner-content{
         width: 100%;
+        padding: 0px;
     }
 
     .banner-pic{
