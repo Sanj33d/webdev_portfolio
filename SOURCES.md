@@ -14,3 +14,9 @@ Public GitHub repositories inspected:
 The [LinkedIn profile](https://www.linkedin.com/in/sanjeedshowkat/) redirected to a sign-in wall. No new experience or certificate claims were inferred from unavailable content.
 
 Research status remains explicit: degree conferral pending, thesis defended, manuscript in preparation, and medical VQA proposal expected in 2027. Decorative diagrams and project artwork are illustrations, not measured study results or application screenshots.
+
+## Profile marks and honours wording
+
+GitHub and LinkedIn marks are inline SVGs from [Bootstrap Icons](https://github.com/twbs/icons/tree/main/icons), licensed under MIT. The licence is included in `assets/bootstrap-icons-LICENSE.txt`.
+
+The portfolio owner confirmed that the Vice Chancellor’s and Dean’s Lists recognitions span multiple consecutive semesters. The website reflects that wording without adding an unconfirmed semester count.

@@ -51,8 +51,8 @@ h1{font-size:clamp(64px,7.2vw,102px);font-weight:600;letter-spacing:-6px;line-he
     --desktop-body-size: 15px;
     --desktop-secondary-size: 14px;
     --desktop-action-size: 13px;
-    --desktop-label-size: 11px;
-    --desktop-small-label-size: 10px;
+    --desktop-label-size: 12px;
+    --desktop-small-label-size: 11px;
   }
 
   .hero-description,
@@ -204,5 +204,124 @@ h1{font-size:clamp(64px,7.2vw,102px);font-weight:600;letter-spacing:-6px;line-he
 @media (max-width: 600px) {
   .education-honors {
     padding: 12px;
+  }
+}
+
+/* Profile details: readable role labels and restrained social marks. */
+.hero-topline {
+  align-items: flex-start;
+  gap: 20px;
+}
+.hero-topline .hero-role-line {
+  align-items: flex-start;
+  font-size: 14px;
+  line-height: 1.65;
+  letter-spacing: 1.2px;
+  max-width: 100%;
+}
+.hero-role-line .live-dot {
+  margin-top: 8px;
+}
+.hero-role-copy {
+  min-width: 0;
+}
+.hero-art .art-coordinate.top,
+.hero-art .art-coordinate.bottom {
+  font-size: 9px;
+}
+.project-art-label {
+  font-size: 10px;
+}
+.art-bottom {
+  font-size: 9px;
+}
+.profile-icon {
+  display: block;
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+}
+.profile-text-link {
+  gap: 9px;
+}
+.profile-text-link > span[aria-hidden="true"] {
+  margin-left: 10px;
+}
+.social-links {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.social-profile {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 12px;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--card);
+  transition: color .2s var(--ease), border-color .2s var(--ease);
+}
+.social-profile:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.social-profile .profile-icon {
+  transition: transform .2s var(--ease);
+}
+.honors-awards > span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+}
+.honors-streak {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: .1px;
+}
+@media screen and (min-width: 1101px) {
+  .honors-streak {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1100px) {
+  .hero-topline .hero-role-line {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  .hero-role-line .live-dot {
+    margin-top: 7px;
+  }
+}
+@media (max-width: 800px) {
+  .hero-art .art-coordinate.top,
+  .hero-art .art-coordinate.bottom {
+    font-size: 8px;
+  }
+  .project-art-label {
+    font-size: 9px;
+  }
+  .art-bottom {
+    font-size: 8px;
+  }
+  .orbit-label > span {
+    font-size: 9px;
+  }
+}
+@media (max-width: 600px) {
+  .hero-topline .hero-role-line {
+    font-size: 11px;
+    letter-spacing: .65px;
+    gap: 9px;
+  }
+  .hero-role-line .live-dot {
+    margin-top: 6px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .social-profile:hover .profile-icon {
+    transform: translateY(-2px);
   }
 }
