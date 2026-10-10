@@ -27,6 +27,10 @@ All internal resources use relative paths, so the website works both under `/web
 - `assets/Sanjeed-Showkat-CV.pdf`: downloadable copy of your supplied CV. Replace this file when your CV changes.
 - `assets/favicon.svg`: custom monogram favicon.
 
+## Adjust desktop typography
+
+Near the end of `theme.css`, the `Desktop readability` block defines five size variables for body text, secondary text, actions, labels, and small labels. Adjust those values to tune desktop readability. The block applies at widths of 1101 CSS pixels and above; smaller screens and print retain their existing type sizes. Large headings retain their existing sizes.
+
 ## Content notes
 
 The supplied CV is the source for current roles and academic details. Degree conferral is pending; the October 2026 thesis is defended, and the manuscript is in preparation, not published. Medical VQA is a research proposal expected in 2027. The research chart is explicitly a conceptual illustration, not a result. Project and certificate links come from the CV or existing portfolio; project descriptions avoid invented performance metrics.
